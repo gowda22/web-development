@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>student details</h1>
+    <form  method="post" action="demo.html" target="_blank">
+        <label for="name">name: </label>
+        <input type="text" placeholder="enter ur name" required minlength="3" maxlength="23" name="name">
+        <hr>
+        <label for="email"> email: </label>
+        <input type="email" placeholder="ur mail" name="email">
+        <hr>
+        <label for="password">password:</label>
+        <input type="password" placeholder="enter password" name="password">
+        <hr>
+        <label for="AGE"> age: </label>
+        <input type="number" placeholder="age" required  min="1" max="150" name="age">
+        <hr>
+       
+        <label for="phone"> phon no:</label>
+        <input type="tel" placeholder="number" required  min="10" max="15" name="phone">
+        <hr>
+        
+        <label for="file">file</label>
+        <input type="file" placeholder="chose file" name="file">
+        <hr>
+        <label for="gender">gender:</label>
+        <input type="radio" name="gender" > 
+        <label for="male">male</label>
+        <input type="radio" name="gender">
+         <label for="female">female</label>
+         <input type="radio" name="gender">
+         <label for="other">other</label>
+         <input type="radio" name="gender" >
+        <hr> 
+
+        <label for=""> programming skillls</label>
+       
+        <br>
+        
+        
+        <input type="checkbox" name="skillls" >
+          <label for="">java</label>
+        <br>
+        
+        
+        <input type="checkbox" name="skillls">
+          <label for="">python</label>
+        <br>
+      
+        <input type="checkbox" name="skillls">
+          <label for="">sql</label> <br>
+          <input type="checkbox" name="skillls"/>
+        <label for="">apti</label>
+        <br>
+        <hr>
+        <label for="manu">select menu:</label>
+        <select  id="manu">
+            <optgroup label="veggs">
+                <option value="">IDLY</option>
+                <option value="">VADDA</option>
+                <option value="">DOSA</option>
+                <option value="">PURI</option>
+            </optgroup>
+            <optgroup label="nonveg">
+                <option value="">C.65</option>
+                <option value="">BIRIYANI</option>
+                <option value="">KBABA</option>
+                <option value="">MBIRIMAYI</option>
+            </optgroup>
+        </select>
+        
+        <br>
+        <hr>
+        <label for="">departments</label>
+        <select >
+            <option value="">cse</option>
+            <option value="">ise</option>
+            <option value="">eee</option>
+            <option value="">civil</option>
+            <br>
+
+
+        </select>
+        <hr>
+        <label > select clg</label>
+    <input type="text" placeholder="collage name" list="clg" name="clg"/>
+    <datalist id="clg">
+        <option value="sjb">SJB</option>
+        <option value="jss">JSS</option>
+        <option value="rns">RNS</option>
+        <option value="pes">PES</option>
+        <option value="rv">RV</option>
+    </datalist>
+    <hr>
+        <button type="submit">save</button>
+        <input type="reset">
+    </form>
+    
+</body>
+</html>
