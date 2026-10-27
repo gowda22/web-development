@@ -1,8 +1,90 @@
-h1 {
-    color: blue;
-    font-size: 30px;
+/* /* /* /* p{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+
+    margin: 10PX;
+    padding: 20PX;
+   display: inline-block;
+
+    
+
+}
+a{
+     background-color: red;
+    height: 100px;
+    width: 100px; 
+
+    margin: 10PX;
+    padding: 20PX; hight <--is defined by this
+    display: inline-block;
+
+
+
+
+} */
+
+
+
+/* div{
+    background-color: rgb(10, 158, 227);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+    border: 10px solid red;
 }
 
-p {
-    color: green;
+
+
+
+
+
+
+ */
+
+/* 
+ *{
+    margin: 0px;
+    box-sizing: border-box;   
+ }
+ div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 10px solid green;
+ }
+ .div-1{
+    /* /* padding: 20px; */
+     /* it inc size of box so we use box size */ 
+
+
+div{
+   background-color: red;
+   height: 100px;
+   width: 100px;
+   flex: grow 0;;
+   flex-shrink: 1;
+
 }
+
+   section{
+      border: 2px solid green;
+      /* height: 100px;
+      width: 300px; */
+      gap: 10px;
+      
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+
+      align-items: center;
+      
+   }
+
+ 
+
+
+  
