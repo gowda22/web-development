@@ -1,4 +1,4 @@
-/* /* /* /* p{
+/* /* /* /* /* p{
     background-color: blue;
     height: 100px;
     width: 100px;
@@ -60,7 +60,7 @@ a{
      /* it inc size of box so we use box size */ 
 
 
-div{
+/* div{
    background-color: red;
    height: 100px;
    width: 100px;
@@ -73,7 +73,7 @@ div{
       border: 2px solid green;
       /* height: 100px;
       width: 300px; */
-      gap: 10px;
+      /* gap: 10px;
       
       display: flex;
       flex-wrap: wrap;
@@ -81,10 +81,104 @@ div{
       justify-content: space-around;
 
       align-items: center;
-      
-   }
+       */
+   
+
+
+       
+/* a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+
+button{
+   background-color: red;
+   border: 10px;
+   color: white;
+
+
+
+}
+
+button:active{
+
+   background-color: green;
+}
+
+
+
+input{
+   outline: none;
+   border: none;
+
+}
+
+input:focus{
+   background-color: black;
+   color: white;
+   outline: 10px solid red;
+}
+
+
+
+div {
+    background-color: rgb(171, 165, 192);
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+
+    border: 5px solid red;
+
+    color: red;
+
+    box-shadow: 10px 20px 10px rgb(199, 228, 7);
+    transition-property: all;
+    transition-duration: 4s;
+}
+
+div:hover {
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    text-align: center;
+    align-content: center;
+    color: blueviolet;
+}
+
+
+ */
+
+
+ .parent{
+   border: 10px solid pink;
+   height: 400px;
+   width: 650px;
+   margin: 50px auto;
+
+ }
+ .child{
+   height: 200px;
+   width: 250px;
+   margin: 50px auto;
+
+   background-color: yellow;
+ }
+ .child:hover{
+   transform: scale(1.5);
+ }
+
+
+
+
+
+
+
+
+
+
+
 
  
 
-
-  
