@@ -151,25 +151,70 @@ div:hover {
  */
 
 
- .parent{
-   border: 10px solid pink;
-   height: 400px;
-   width: 650px;
-   margin: 50px auto;
+ /* .parent {
+    border: 10px solid rgb(164, 92, 104);
+    height: 400px;
+    width: 350px;
+    margin: 10px auto;
+} */
 
- }
- .child{
-   height: 200px;
-   width: 250px;
-   margin: 50px auto;
+/* .child {
+    height: 200px;
+    width: 250px;
+    margin: 50px auto;
+    background-color: yellow;
+    transition-property: all;
+   transition: all 2s ease;
+  
 
-   background-color: yellow;
- }
- .child:hover{
-   transform: scale(1.5);
- }
+}
+
+.child:hover {
+    transform: rotate(160deg);
+    background: rgb(1, 233, 1);
 
 
+} */
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    border: 2px solid red;
+    width: 400px;
+    margin: 20px auto;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px gray;
+    transition: all 0.5s ease;
+}
+
+.card .details {
+    width: 100%;
+    border: 2px solid rgb(113, 113, 119);
+    padding: 10px;
+}
+
+.card .imgs {
+    width: 100%;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.card .imgs:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px gray;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 30px gray;
+}
 
 
 
