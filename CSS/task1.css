@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    border: 10px solid red;
+
+   
+
+    
+}
+
+.slider{
+    height: 450px;
+    width: 550px;
+    padding:30px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items:  center;
+    gap: 20px;
+    margin: 100px auto;
+    overflow: auto;
+
+
+
+
+
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    margin:20px
+
+}
