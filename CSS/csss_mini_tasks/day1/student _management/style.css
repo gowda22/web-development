@@ -1,0 +1,121 @@
+
+/* 1. Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Body Tag Selector */
+body {
+    background-color: #f2f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* 3. Group Selector */
+h1, h2 {
+    color: #263c5a;
+}
+
+/* 4. Header Selector */
+header {
+    background-color: #263c5a;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header heading */
+header h1 {
+    color: white;
+}
+
+/* 5. Navigation Descendant Selector */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 33px;
+    font-size: 17px;
+}
+
+/* 6. Child Selector */
+section > h2 {
+    text-align: center;
+    background-color: #dce8f7;
+    padding: 12px;
+}
+
+/* 7. Class Selector */
+.student-card {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #263c5a;
+    text-align: center;
+}
+
+/* 8. ID Selector */
+#student-name {
+    color: #e05b39;
+    font-size: 26px;
+}
+
+/* 9. Class Selector */
+.details {
+    color: #4f2d2d;
+    font-size: 16px;
+    margin: 12px;
+}
+
+/* 10. Descendant Selector */
+section p {
+    line-height: 1.5;
+}
+
+/* 11. Attribute Selector */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+/* 12. Image Styling */
+.student-card img {
+    border: 3px solid #263c5a;
+    border-radius: 50%;
+}
+
+/* 13. Skills Class Selector */
+.skills-list {
+    background-color: white;
+    width: 250px;
+    margin: 20px auto;
+    padding: 30px 50px;
+}
+
+/* 14. Table Styling */
+.marks-table {
+    background-color: white;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.marks-table th,
+.marks-table td {
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: center;
+}
+
+.marks-table th {
+    background-color: #263c5a;
+    color: white;
+}
+
+/* 15. Footer */
+footer {
+    background-color: #263c5a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
