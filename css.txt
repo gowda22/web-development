@@ -1,0 +1,246 @@
+css cascading style sheet
+
+--it is a stylr lanaguage uded to format design or podition html document on the browser
+
+
+
+1.inline
+2.internal 
+3.external
+
+1..inline:-inside html line
+style attribute
+inside that key value
+it is quickk to add and that css is applicable ton that pertiular tag
+not recomended for large consistence project
+
+
+2.internal css:-
+inside html under head ADDED USING STYLE TAG 
+style is applicable for the tages peresent in pertucular document
+
+<style>
+p
+{
+color:red;
+backgroundcolour:green
+}
+
+
+3 external css 
+this is added by creating a file .css extension which has all css propertys
+
+usig link tag we can link external css to html
+
+
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    color: green;
+style.css
+
+demo.html
+
+---------------
+text fromating properties
+
+text aligin arrangeing text where we want
+word align,letter breaking,text decoration
+text shadow hr vr br color;
+
+----------
+16th oct 
+==SELECTORS IN CSS 
+ USED TO
+sellect html tags
+
+
+1.TAG NAME SELECTOR:-
+WE TAKE PERTULAR TAG NAME AND WE APPPLY
+
+
+2.GROUP SELECTOR
+grop of html tags 
+h1,h2,h3{
+color:red
+}
+3ID SELECTOR
+using the id 
+#idname(p1){
+colour-red
+}
+
+
+4.CLASS SELECTOR
+ select all class name which has same name 
+{in css we use that by .class name } after that we are apllyy css
+adj: apply all tags with same class name 
+
+5.UNIVERSAL SELECTOR
+add img in background
+
+6.GENERIC CLASS SELECTORS
+
+
+
+box model
+1.margin:
+
+==============
+26-10
+
+display property 
+
+used to countrol the display behavior of 
+the html element on ui
+
+
+--types
+1---.display:- 
+inline:-takes content hight and width on ui
+
+block:-takes content hight full width of parent (100%)
+
+inline-block:-(based on hight and width) it allows both block level and inline level
+ (elemets to behave block level element and display the block element in the sam line)
+
+none(not display html element in ui)
+
+.display  visibality hidden (element is hidden but mt space is ocupied  displayed)
+
+@@ difference between none and display visibality hidden 
+
+-border sizeing:border box
+{used organize the cintent {whn we use padding box is  increase overfitted})
+
+
+
+--
+27-10-26
+ display FLEX BOX 
+
+IT IS  a dimention layout used to arrange the layout moddels into rows and coloums
+
+
+
+div{
+   background-color: red;
+   height: 100px;
+   width: 100px;
+   display: inline-block;
+}
+
+   section{
+      border: 2px solid green;
+   
+      
+      gap: 10px;
+      width: 700px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: columns;
+      justify-content: space-around;
+      
+   }
+
+
+
+--if
+
+
+  flex direction = row 
+then  
+ 	justify content arrange elements  with horizontal ratio
+	 align iteams will arranage elemets un vertical
+---if 
+	flex direction =column
+
+THEN
+	justify content arrange elements with vertical ratio
+	 AKIGN RATIO ITEMS WILL ARRANGE IN HORIZONALTAL 
+
+1.2 flex-grow  and flex-strink 
+ applyes in child 
+
+
+
+-----
+29-10-26
+
+
+pesddio classes
+
+
+if we click on some ung txt it highlighted 
+
+link 
+active 
+focus
+
+----
+29-10-2026
+
+transform property :- it allows element to move or chnage smoothly
+
+1.scale:
+2.rotate:
+3.translate:move
+
+
+
+--TRASITON PROPERTY
+
+apply or specify
+trasition-property:transform,colour
+transaction-duration 2s
+transition-delay-2s
+.child:hover:
+tranfrom:rotatin(160deg)
+background-colour:red
+
+
+------
+overflowm property 
+--
+2-11-26
+opacity -to add tranfarebce
+
+positon property 
+--it determines how an html element will be placed in the ui,the behaviour of element based on 
+scrool,fixed,,stickey and absolite and realtive 
+1.relative---moves element from its own position
+2.absalite-
+3.fixed
+--z index overlap property 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
