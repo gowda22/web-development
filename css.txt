@@ -1,3 +1,44 @@
+
+--HTML
+
+
+
+PART 10 – COMPLETE HTML INTERVIEW REVISION
+These are the questions you should be able to answer in simple English.
+No.	Interview question	Key point to remember
+1	What is HTML?	Structures webpages
+2	What is HTML5?	Modern HTML standard
+3	What is a tag?	Markup like <p>
+4	What is an element?	Complete HTML unit
+5	What is an attribute?	Extra information
+6	What is DOCTYPE?	HTML5 declaration
+7	Difference between head and body?	Metadata vs page content
+8	Difference between div and span?	Block vs inline
+9	Difference between ID and class?	Unique identifier vs reusable group
+10	What is name?	Form submission key
+11	Difference between b and strong?	Visual bold vs importance
+12	Difference between i and em?	Alternate voice vs emphasis
+13	Difference between UL and OL?	Bullets vs numbering
+14	What is a void element?	No closing tag
+15	What is the img tag?	Displays image
+16	Why is alt used?	Image alternative
+17	What is anchor tag?	Creates links
+18	Difference between th and td?	Header vs data cell
+19	What is colspan?	Combines columns
+20	What is rowspan?	Combines rows
+21	What is a form?	Collects user data
+22	What is label?	Describes form control
+23	Difference between radio and checkbox?	One choice vs multiple choices
+24	Difference between readonly and disabled?	Editable? No vs inactive
+25	What is textarea?	Multiline input
+26	GET vs POST?	HTTP request methods
+27	What is semantic HTML?	Meaningful tags
+28	Section vs article?	Related content vs independent content
+29	What is iframe?	Embeds external content
+30	What is HTML entity?	Special character representation
+
+
+
 css cascading style sheet
 
 --it is a stylr lanaguage uded to format design or podition html document on the browser
@@ -178,7 +219,7 @@ if we click on some ung txt it highlighted
 
 link 
 active 
-focus
+focus 
 
 ----
 29-10-2026
@@ -215,6 +256,23 @@ scrool,fixed,,stickey and absolite and realtive
 2.absalite-
 3.fixed
 --z index overlap property 
+
+
+
+
+
+
+7. Transition vs Animation vs Transform
+This is a very important interview comparison.
+Transform	Transition	Animation
+Changes element appearance	Makes changes smooth	Creates timed visual changes
+Does not define duration	Uses duration	Uses duration
+Can move, rotate, resize	Usually starts when a property changes	Can start automatically
+Does not need keyframes	Does not need keyframes	Can use @keyframes
+Example: rotate(30deg)	Example: transition: 1s	Example: animation: move 3s
+
+
+
 
 
 

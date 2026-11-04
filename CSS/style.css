@@ -1,4 +1,4 @@
-/* *{
+/* /* *{
     padding: 0;
     box-sizing: border-box;
 }
@@ -42,6 +42,26 @@ img:hover{
     
 
  } */
+
+ /* *{
+    
+
+  font-family: "Playwrite IT Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+ }
+
+ .demo{
+    
+  font-family: "Playwrite IT Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+ 
   div {
     height: 300px;
     width: 200px;
@@ -65,7 +85,7 @@ img:hover{
 }
 
 .nav{
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color:rgb(56, 0, 209);
     position: fixed;
@@ -76,4 +96,143 @@ header{
     background-color: aqua;
     position: static;
     z-index: 20;
+}
+.stick{
+    height: 40px;
+    background-color: black;
+    color: white;
+    position:sticky;
+    width: 100%;
+    top: 60px;
+} */
+
+/* .para1{
+    color: rebeccapurple;
+
+
+
+
+
+   
+  font-family: "Playwrite IT Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.para2{
+    color: yellow;
+
+    font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.para3{
+    color: red;
+
+   
+  font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa-whatsapp{
+   
+    color: green;
+    font-size: 100px;
+}
+
+.fa-square-instagram {
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  color: white;
+  font-size: 100px;
+}
+.fa-openai{
+
+	color:
+	#ECECF1;
+    font-size: 100px;
+    background-color: black;
+
+
+
+}
+.demo{
+    color: rgb(6, 6, 186);
+    background-color: #655d61;
+    border-radius: 23px;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    font-family: fantasy;
+
+}
+h1{
+    animation: animate__bounce;
+} */
+
+
+
+
+.container{
+    border: 10px solid brown;
+   display: flex;
+   /* justify-content:center; */
+ 
+flex-wrap: wrap;
+
+gap: 20px;
+
+}
+#box1{
+    height:100px ;
+    width: 100px;
+    color: red;
+    background-color: blue;
+   transform: rotate(160deg);
+    
+      
+
+}
+
+#box2{
+    height:100px ;
+    width: 100px;
+    color: rgb(65, 247, 5);
+    background-color: chocolate;
+    transform:rotate(250deg);
+    transition;
+    
+ 
+}
+
+#box3{
+    height:100px ;
+    width: 100px;
+    color: rgb(204, 0, 255);
+    background-color: deeppink;
+    border: 2px solid black;
+
+}
+
+
+#box4{
+    height:100px ;
+    width: 100px;
+    color: rgb(50, 74, 51);
+    background-color: rgb(20, 71, 255);
+
+    border: 2px solid black;
+    text-align: center;
+
+}
+#box4:hover
+{
+    background-color: green;
+    
+    transition: 1s;
+    transform: rotate(160deg);
+    transition-delay: 2s;
+    content: 💕💕;
 }
