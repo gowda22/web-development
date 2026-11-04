@@ -271,6 +271,21 @@ Can move, rotate, resize	Usually starts when a property changes	Can start automa
 Does not need keyframes	Does not need keyframes	Can use @keyframes
 Example: rotate(30deg)	Example: transition: 1s	Example: animation: move 3s
 
+------
+
+RESPONSIVE WEB DESIGN 
+
+
+A RENPOSIVE WEB DESIGN IS APPROACH TO ADJUST THE LAYOUT,CONTENT BASED ON THE DEVICE SIZE
+
+
+
+
+
+
+
+
+
 
 
 
