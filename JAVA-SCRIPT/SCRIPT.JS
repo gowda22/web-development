@@ -94,20 +94,28 @@
 //scopes
 //block scope
 
-if (true){
-    let user="gowda";
-    const  mail="gowda@MAIL";
-    var age= 23;
-    console.log(user);
-    console.log(mail);
-    console.log(age);
+// if (true){
+//     let user="gowda";
+//     const  mail="gowda@MAIL";
+//     var age= 23;
+//     console.log(user);
+//     console.log(mail);
+//     console.log(age);
         
-    }
-console.log("outside block");
-console.log(user);
-console.log(mail);
-console.log(age);
+//     }
+// console.log("outside block");
+// console.log(user);
+// console.log(mail);
+// console.log(age);
 
+
+// FUNCTIONS
+
+// function addition(a, b) {
+//     return a + b;
+// }
+
+// console.log(addition(10, 30));
 
 
 

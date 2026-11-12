@@ -35,4 +35,11 @@ enters tdz tempoval dead zone
 time zone between varibale del and inctibal we can not acces variable which enter to tdz
 
 
-let,const,var hoisted then let and const enter tdz and var type varibale are comepletly hoisted 
+let,const,var hoisted then let and const enter tdz and var type varibale are comepletly hoisted
+
+FUNCTIONS:
+is a reuseable block of code used to perform perticular task 
+
+in js function can be written using function keywords
+js function can writeen any value
+-declaration function EXPRESSION
