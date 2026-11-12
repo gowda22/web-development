@@ -72,16 +72,44 @@
 
 // //special operator
 
-let a=100;
-console.log(a)
-console.log ( typeof a)
-let b="100"
+// let a=100;
+// console.log(a)
+// console.log ( typeof a)
+// let b="100"
 
-console.log(b)
-console.log ( typeof b)
-let c = true
-console.log(c)
-console.log(typeof c)
+// console.log(b)
+// console.log ( typeof b)
+// let c = true
+// console.log(c)
+// console.log(typeof c)
+
+
+// DATA TYPES
+
+// let a=22;
+// console.log(a)
+// console.log(typeof a)
+
+
+//scopes
+//block scope
+
+if (true){
+    let user="gowda";
+    const  mail="gowda@MAIL";
+    var age= 23;
+    console.log(user);
+    console.log(mail);
+    console.log(age);
+        
+    }
+console.log("outside block");
+console.log(user);
+console.log(mail);
+console.log(age);
+
+
+
 
 
 

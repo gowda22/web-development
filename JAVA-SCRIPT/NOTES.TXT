@@ -2,3 +2,37 @@ EXPRESSION AND STATEMENTS
 
 
 
+operators
+conditional STATEMENTS
+---
+11-11-26
+DATA TYPES
+
+VARIABLES
+named container used to store the value or data  ot in information
+we can store any value in variable primitive and non primitive
+3 keywords to create:
+1.var:
+2.let:
+3.const:
+
+scopes:
+1.block scope 
+2.function scope
+3.lexical scope
+4.global scope
+
+
+hoisting
+
+whn we try to acces variable before it declaration we get undefined incase 
+variable created using var keywords
+
+incase of let and const we get reference error bcz let and const 
+enters tdz tempoval dead zone
+
+
+time zone between varibale del and inctibal we can not acces variable which enter to tdz
+
+
+let,const,var hoisted then let and const enter tdz and var type varibale are comepletly hoisted 
