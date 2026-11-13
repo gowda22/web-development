@@ -56,12 +56,17 @@ let c=22 // yess undeined
 
 //hoisting function
 
+
 hello()
 function hello(){
     console.log("hello funcrtion")
 }
+
+
 //note:let and const stay in the temporval dead zone[TDZ] untill declaration is exicuted
 
 
 
 //FUNCTIONS
+
+
