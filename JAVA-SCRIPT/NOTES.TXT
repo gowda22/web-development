@@ -43,3 +43,59 @@ is a reuseable block of code used to perform perticular task
 in js function can be written using function keywords
 js function can writeen any value
 -declaration function EXPRESSION
+
+types of funnction:
+1.named function:-
+  funnction with function keyword and  function named
+
+2.EXPRESSION function:-
+  when entire function is assigned to variable  that function become 
+  EXPRESSION function
+  we should use variable name to invoke function
+
+
+3.ananimous function;- 
+is a function writeen useing function keyword but without fun name
+ to invoke anonimas function assign to varibale amd use varibale name to invoke function
+
+
+3.arrow funnction:-
+arrow function is created using => sign 
+ * fun keyword,name not used 
+ syn=let arrow=()=>
+ {
+    console.log(" i am arrw function")
+ };
+ console.log(arrow(true));
+ rules:
+   ->if their is exatly 1 parameter in arroe function in
+   the paranthisis optional 
+   ->if their is no parameter or  1 parametor paranthisis are mandatory
+   ->if their is exatly 1 STATEMENT then{} are optional
+   ->if their is 1 STATEMENT that is retun statemnt is optional 
+   and retun is optional,if we skip{} we should skip return keyword
+
+//call back function
+
+function which is passed as a argument 
+to another function is known as calling function
+
+ex:
+function demo(a){
+    a()
+}
+function display(){
+    console.log("i am anonimous function")
+
+}
+demo(display)
+
+//HIGHER ORDER FUNCTIONS
+
+ function accecpts another function as a arguments and return a 
+ function is known as HIGHER order function  
+
+ IIFE
+
+ DEFAULT
+
