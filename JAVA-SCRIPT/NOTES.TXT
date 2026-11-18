@@ -99,3 +99,33 @@ demo(display)
 
  DEFAULT
 
+
+CLOSURE
+it is a cocept in js where inner or nested function remember the 
+varibales of outer function even after exicution is completed
+
+
+STRING:-
+is is a sequentiacl or collection of character writeen in 
+1.single ' 
+2.double"
+3.back tick ``
+primitive datatype
+ singel and double cout used ti create single lines STRING
+
+back ticks:- create templte literasl we can access varivanbel inside the
+STRING is kbnow as srting intercolation
+
+
+we can embade variabls using templtet litrals
+
+
+
+
+
+
+
+
+
+
+
