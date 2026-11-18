@@ -130,7 +130,11 @@ element or data
  
  2 ways to create 
  1.array literasl
+  let students=["gowda","harsha","shivu"]
+ console.log(students);
  2.using new keyword
+ let newstudents  =  new array["apple","banana","mango"];
+
 
 
 

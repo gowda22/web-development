@@ -10,6 +10,8 @@ let fruits = new Array("apple", "banana", "mango");
 
 console.log(fruits);
 
+
+
 // 3. Find length
 console.log(fruits.length);
 
@@ -24,9 +26,11 @@ console.log(fruits);
 fruits.pop();
 console.log(fruits);
 
+
 // 7. Add at beginning
 fruits.unshift("grapes");
 console.log(fruits);
+
 
 // 8. Remove from beginning
 fruits.shift();
@@ -42,12 +46,13 @@ console.log(fruits.indexOf("banana"));
 console.log(fruits.slice(0, 2));
 
 // 12. Remove element using splice
-fruits.splice(1, 1);
+fruits.splice(1, 1);// banaa removed
 console.log(fruits);
 
 //to add
 fruits.splice(1,0,"banana","mango","true");
 console.log(fruits)
+
 // 13. Join elements
 console.log(fruits.join(" - "));
 
@@ -65,6 +70,26 @@ fruits.forEach(x => console.log(x));
 
 // 18. Check whether it is an array
 console.log(Array.isArray(fruits));
+
+
+
+
+//
+let arr = [1, "Gowda", 2, "Harsha", 3, "Prajwal", 4, "Shivu"];
+
+let numbers = [];
+let names = [];
+
+for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] === "number") {
+        numbers.push(arr[i]);
+    } else {
+        names.push(arr[i]);
+    }
+}
+
+console.log("Numbers:", numbers);
+console.log("Names:", names);
 
 
 
