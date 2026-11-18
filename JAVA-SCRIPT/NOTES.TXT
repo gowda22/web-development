@@ -113,11 +113,26 @@ is is a sequentiacl or collection of character writeen in
 primitive datatype
  singel and double cout used ti create single lines STRING
 
-back ticks:- create templte literasl we can access varivanbel inside the
+back ticks:- create templte literasl we can access variabel inside the
 STRING is kbnow as srting intercolation
 
 
 we can embade variabls using templtet litrals
+
+
+ARRAY:-
+store squential collection  of  homegenous and heterigenios
+element or data
+ 
+ * an array in js is special type od object used to store  orderd collection of
+ values in single variable
+ *dyanamic in nature(increase size) and 
+ 
+ 2 ways to create 
+ 1.array literasl
+ 2.using new keyword
+
+
 
 
 
