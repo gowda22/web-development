@@ -136,6 +136,15 @@ element or data
  let newstudents  =  new array["apple","banana","mango"];
 
 
+ for loop
+ for each
+
+ //map function
+ defination:- it is used t
+
+
+
+
 
 
 
