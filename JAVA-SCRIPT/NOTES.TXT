@@ -140,7 +140,48 @@ element or data
  for each
 
  //map function
- defination:- it is used t
+ defination:- 
+ map:-
+ filter:-
+ reduce:-
+
+objects:-
+
+key value paires encolosed with curly brasis
+properties:
+which specifies more details about the object 
+key should be unicc likw name,age 
+values are can be anything
+
+student_Details={
+  name:"gowda"
+  age:"23"
+  gender:"male}
+
+
+
+                       char
+
+
+      wheels               start 
+                           move
+                           stop
+
+
+      doors
+      STATEs 
+      Colour
+
+
+chaining 
+and  optional chaining
+
+
+update 
+access
+delete
+ shallow copy 
+ nested copy
 
 
 
