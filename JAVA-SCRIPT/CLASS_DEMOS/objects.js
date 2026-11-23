@@ -91,3 +91,13 @@ console.log(student);
 delete student.marks.maths;
 
 console.log(student.marks);
+
+
+
+
+
+//shallow copy
+
+
+
+
