@@ -186,6 +186,15 @@ delete
 
 
 
+EVENT HANDLING
+whenever user do some actions in browser event trigger
+ in response to that
+event the function is exicuted is know as event  HANDLING
+3 ways
+1.inline event handler
+2.dom properties event HANDLING
+3.
+
 
 
 
