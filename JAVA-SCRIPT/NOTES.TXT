@@ -200,6 +200,25 @@ event the function is exicuted is know as event  HANDLING
 
 
 
+------------------------
+
+
+addevent listener
+
+direction of event trigering from  inner element to outer element  
+and outer to inner
+
+1.event bubbling
+if events propogate from  inner to outer
+then it is called as event bubbling
+
+2.event captureing
+event is outer to inner then it called aws  event captureing
+
+
+
+
+
 
 
 
