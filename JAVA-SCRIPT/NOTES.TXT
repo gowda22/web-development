@@ -217,6 +217,16 @@ event is outer to inner then it called aws  event captureing
 
 
 
+event object
+carray object of img  from where 
+event is triggred and event obejcr is automatically reated whn event occurs
+to acces event object 
+wew suppose to pas one argument in event 
+handler function 
+
+
+
+event deligation 
 
 
 
