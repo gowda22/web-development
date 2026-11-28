@@ -1,10 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -15,34 +14,34 @@ form {
     background-color: rgb(55, 97, 163);
     border-radius: 15px;
     box-shadow: 4px 4px 24px grey;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-form div {
+form div,
+button,
+#message {
     width: 80%;
 }
 
-form label {
+label {
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     color: white;
 }
 
-form input {
+input {
     width: 100%;
     height: 60px;
-    padding: 0 12px;
+    padding: 10px;
     border: none;
     border-radius: 10px;
     font-size: 16px;
 }
 
-form button {
-    width: 80%;
+button {
     height: 50px;
     background-color: green;
     color: white;
@@ -52,19 +51,18 @@ form button {
     cursor: pointer;
 }
 
-form #message {
+#message {
     display: none;
-    width: 80%;
-    min-height: 60px;
+    margin: 0;
     padding: 10px;
     background-color: white;
-    border: 4px solid red;
-    color: red;
-    font-size: 24px;
+    border: 4px solid #b00020;
+    color: #b00020;
+    font-size: 22px;
     text-align: center;
 }
 
-form #message.success {
+#message.success {
     border-color: green;
     color: green;
 }
